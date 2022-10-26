@@ -74,3 +74,43 @@ h3
   width: 100%;
 
 }
+/* contact form */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 5px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+.cont-col
+{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  margin: 100px;
+  text-align: center;
+}
+
+.cont-col img {
+  width: 70%;
+
+}
+.aboutm
+{
+  padding-top: 60px;
+}
